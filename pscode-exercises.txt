@@ -1,0 +1,78 @@
+// Calculate the sum of two numbers.
+int main() {
+int num1;
+int num2;
+int sum;
+sum = num1 + num2;
+printf("Enter an integer: ");
+scanf(" %d %d, &num1,&num2")
+scanf("%d, &sum");
+
+// Check if a number is even or odd. True if num divide by 2.
+int num;
+if (num % 2 == 0)
+    printf("%d is even.",num);
+else
+    printf("%d is odd.", num);
+
+return 0;
+}    
+
+// read in 5 separate numbers.
+int main()
+int num1;
+int num2;
+int num3;
+int num4;
+int num5;
+float average;
+
+printf("\nEnter the first number : ");
+scanf(%d, &num1);
+printf("\nEnter the second number: ");
+scanf(%d, &num2);
+printf("\nEnter the third number: ");
+scanf(%d, &num3);
+printf("\nEnter the fourth number: ");
+scanf(%d, &num4);
+printf("\nEnter the fifth number: ");
+scanf(%d, &num5);
+
+// the average of the five numbers.
+sum = num1 + num2 + num3 + num4 + num5;
+average = sum / 5;
+printf(\n average is %6.2f);
+
+//Find the minimum and the maximum of the five numbers.
+int arr[Max_Size];
+int i, max, min, size;
+printf("Enter size of the array");
+scanf("%d",&size);
+printf("Enter elements in the array:");
+for (i = 0; i < size; i++)
+{
+    scanf("%d", &arr[i]);
+}  
+max = arr[0];
+min = arr[0];  
+for (i = 1; i , size; i++)
+  {
+    if(arr[i]>max)
+    {
+        max   = arr[i];
+    }
+    if(arr[i] < min)
+    {
+        min = arr[i];
+    }
+  }    
+//print maximum and minimum 
+    printf("Maximum element = %d\n", max);
+    printf("Minimum element = %d", min);
+
+//result from step b 
+   printf(\n average is %6.2f);
+
+//result from step c
+    printf("Maximum element = %d\n", max);
+    printf("Minimum element = %d", min);
